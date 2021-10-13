@@ -1,0 +1,22 @@
+/* ここからCSSを記述してください。*/
+.backGroundImg {
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.vh-75 {
+    height: 75vh;
+}
+
+.textStyle {
+    font-size: 1.2rem;
+    line-height: 1.7;
+    letter-spacing: 0.5px;
+}
+
+@media (min-width: 992px){
+    .textStyle{
+        font-size: 2rem;
+        line-height: 2;
+    }
+}
